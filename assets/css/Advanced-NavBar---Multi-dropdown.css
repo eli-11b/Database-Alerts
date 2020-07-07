@@ -1,0 +1,276 @@
+.header2 {
+  font-family: "Montserrat", sans-serif;
+  color: #8d97ad;
+  font-weight: 300;
+}
+
+.header2.bg-success-gradiant {
+  background: #2cdd9b;
+  background: -webkit-linear-gradient(legacy-direction(to right), #2cdd9b 0%, #1dc8cc 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#2cdd9b), to(#1dc8cc));
+  background: -webkit-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%);
+  background: -o-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%);
+  background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%);
+}
+
+.header2 .font-12 {
+  font-size: 12px;
+}
+
+.header2 .dropdown-item {
+  padding: 8px 1rem;
+  color: #8d97ad;
+}
+
+.header2 .h2-nav .navbar-nav .nav-item .nav-link {
+  padding: 12px 0px;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.header2 .h2-nav .navbar-nav .nav-item .nav-link:hover {
+  color: #263238;
+}
+
+.header2 .h2-nav .navbar-nav .nav-item {
+  margin: 0 20px;
+}
+
+@media (min-width: 1024px) {
+  .header2 .navbar-nav > .dropdown .dropdown-menu {
+    min-width: 210px;
+    margin-top: 0px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header2 .dropdown-submenu:hover > .dropdown-menu {
+    display: block;
+  }
+}
+
+.header2 .dropdown-toggle::after {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .header2 .hover-dropdown .navbar-nav > .dropdown:hover > .dropdown-menu {
+    display: block;
+    margin-top: 0px;
+  }
+}
+
+.header2 .btn-dark {
+  color: #fff;
+  background-color: #343a40;
+  border-color: #343a40;
+}
+
+.header2 .btn-dark:hover {
+  color: #fff;
+  background-color: #23272b;
+  border-color: #1d2124;
+}
+
+.header2 .h2-nav .navbar-nav .nav-item .btn {
+  opacity: 0.5;
+}
+
+.header2 .h2-nav .navbar-nav .nav-item .btn:hover {
+  opacity: 1;
+}
+
+.header2 .dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-left: 0;
+  border-radius: 0.25rem;
+  display: none;
+}
+
+#bton-group-table-controls {
+  margin-left: 20px;
+}
+
+
+.btn-table-controls {
+  border-radius: 15px;
+  margin-right: 5px;
+}
+
+th {
+  background-color: #83c7b3;
+}
+
+
+#alert-card-title {
+  text-align: center;
+}
+
+#alert-icon {
+  color: red;
+  font-size: 32px;
+}
+
+.alert-submission-controls {
+  margin-right: 5px;
+  border-radius: 15px;
+}
+
+.alert-form {
+  display: block;
+}
+
+#email-icon {
+  font-size: 25px;
+  margin-right: 5px;
+}
+
+.btn-table-controls {
+  margin-right: 5px;
+}
+
+#table-with-search {
+  margin: -20px 80px 0px 80px;
+}
+
+body {
+  background-color: rgb(234,234,234);
+}
+
+.navbar.navbar-light.navbar-expand-md.navigation-clean {
+  background-color: rgb(255,255,255);
+}
+
+
+#table-with-search {
+  display: flex;
+}
+
+.btn-toolbar {
+  display: block;
+}
+
+.text-muted.card-subtitle.mb-2 {
+  text-align: center;
+}
+
+#date-and-time-input {
+  margin-bottom: 15px;
+  width: 65%;
+  margin-right: 5px;
+  display: inline-flex;
+  /*margin-right: 2px;*/
+}
+
+#btn-group-alert-controls {
+  margin-top: 10px;
+}
+
+.btn-group > .btn:not(:first-child), .btn-group > .btn-group:not(:first-child) > .btn {
+  margin-left: 5px;
+}
+
+td {
+  background-color: white;
+}
+
+#card-container{
+  margin:25px 80px 0px 80px;
+}
+
+
+#date-and-time-input-to-date {
+  width: 45%;
+  display: inline-flex;
+  margin-left: 40px;
+  margin:5px;
+}
+
+
+#btn-group-shift-change-controls {
+  margin-top: 30px;
+}
+
+#table-passdown-notes {
+  margin-top: 15px;
+}
+
+.icon.ion-monitor {
+  font-size: 20px;
+  color: blue;
+}
+
+.fas.fa-tools {
+  color: rgb(131,199,179);
+}
+
+.fa.fa-user {
+  font-size: 20px;
+  color: rgb(239,160,160);
+}
+
+#card-graph-input {
+  width: 30%;
+  display: inline-flex;
+  margin-left: 5px;
+}
+
+#card-graph {
+  display: inline-flex;
+  width: 65%;
+  margin-right: 5px;
+  margin-left: 10px;
+}
+
+
+#card-disk-utilization-controls {
+  width: 35%;
+}
+
+#disk-utilization-control {
+  display: inline-flex;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#heading-disk-utilization-controls {
+  margin-top: 20px;
+}
+
+#disk-utilization-control {
+  margin-top: 15px;
+}
+
+#toolbar-disk-utilization-control {
+  /*margin: 0px 5px 0px 100px;*/
+}
+
+#toolbar-disk-utilization-control-groupleft {
+  margin: 5px;
+}
+
+#toolbar-disk-utilization-control-group2 {
+  margin: 5px;
+}
+
+#div-toolbar-disk-utilization-control-buttongroup {
+  text-align: center;
+}
+
+.fas.fa-eraser {
+  font-size: 20px;
+}
+
+.fas.fa-chart-line {
+  font-size: 20px;
+}
+
+.fa.fa-book {
+  font-size: 20px;
+}
+
+#footer-graph-page {
+  margin-top: 50px;
+}
+

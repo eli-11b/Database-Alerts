@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>NewFrontlineDesign</title>
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css?h=375c261329336ca7c17ae98853697678">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/typicons/2.0.9/typicons.min.css">
+    <link rel="stylesheet" href="/assets/fonts/fontawesome5-overrides.min.css?h=2c0fc24b3d3038317dc51c05339856d0">
+    <link rel="stylesheet" href="/assets/css/Advanced-NavBar---Multi-dropdown.css?h=3de8590e210017b555613f5eb686cb66">
+    <link rel="stylesheet" href="/assets/css/Footer-Clean.css?h=04ad3401c95e277232ed8e070a0a89fc">
+    <link rel="stylesheet" href="/assets/css/Navigation-Clean.css?h=18afe11016ebdc04a71ce11eff4e7299">
+    <link rel="stylesheet" href="/assets/css/styles.css?h=d41d8cd98f00b204e9800998ecf8427e">
+    <link rel="stylesheet" href="/assets/css/Table-With-Search-1.css?h=604cb4e2e523f88e3270d5f1dbcb81fa">
+    <link rel="stylesheet" href="/assets/css/Table-With-Search.css?h=604cb4e2e523f88e3270d5f1dbcb81fa">
+</head>
+
+<body>
+    <!-- Start: Navigation Clean -->
+    <nav class="navbar navbar-light navbar-expand-md d-block navigation-clean">
+        <div class="container"><a class="navbar-brand" href="#">XTIVIA Frontline</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="/" style="color: rgb(0,0,0);">Alerts</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="/graphs" style="color: rgb(0,0,0);">Graphs</a></li>
+                    <li class="nav-item" role="presentation"></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End: Navigation Clean -->
+    <div id="div-first-row">
+        <div class="card d-inline-flex" id="card-graph">
+            <div class="card-body">
+                <h4 class="text-center card-title">Disk Utilization</h4>
+                <div><canvas data-bs-chart="{&quot;type&quot;:&quot;line&quot;,&quot;data&quot;:{&quot;labels&quot;:[&quot;January&quot;,&quot;February&quot;,&quot;March&quot;,&quot;April&quot;,&quot;May&quot;,&quot;June&quot;],&quot;datasets&quot;:[{&quot;label&quot;:&quot;Revenue&quot;,&quot;backgroundColor&quot;:&quot;#4e73df&quot;,&quot;borderColor&quot;:&quot;#4e73df&quot;,&quot;data&quot;:[&quot;4500&quot;,&quot;5300&quot;,&quot;6250&quot;,&quot;7800&quot;,&quot;9800&quot;,&quot;15000&quot;],&quot;fill&quot;:true}]},&quot;options&quot;:{&quot;maintainAspectRatio&quot;:true,&quot;legend&quot;:{&quot;display&quot;:false},&quot;title&quot;:{&quot;display&quot;:false},&quot;scales&quot;:{&quot;xAxes&quot;:[{&quot;ticks&quot;:{&quot;beginAtZero&quot;:true}}],&quot;yAxes&quot;:[{&quot;ticks&quot;:{&quot;beginAtZero&quot;:true}}]}}}"></canvas></div>
+                <p
+                    class="card-text"></p>
+            </div>
+        </div>
+        <div class="card d-inline-flex" id="card-graph-input">
+            <div class="card-body">
+                <h4 class="text-center card-title">Upload CSV</h4><input class="border rounded d-inline-flex" type="file" name="input-disk-utilization-csv" style="width: 80%;margin-left: 50px;">
+                <h6 class="text-muted card-subtitle mb-2" id="heading-disk-utilization-controls">Controls</h6>
+                <div id="div-toolbar-disk-utilization-control-buttongroup">
+                    <div class="btn-toolbar d-inline-flex" id="toolbar-disk-utilization-control">
+                        <div class="btn-group d-inline-block" role="group" id="toolbar-disk-utilization-control-groupleft"><button class="btn btn-warning btn-sm" type="button"><i class="fas fa-eraser"></i>&nbsp;Clear</button><button class="btn btn-primary btn-sm" type="button"><i class="fas fa-chart-line"></i>&nbsp;Submit</button><button class="btn btn-info btn-sm"
+                                type="button"><i class="fa fa-book"></i>&nbsp;Report</button></div>
+                    </div>
+                </div>
+                <div id="disk-utilization-control"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Start: Footer Clean -->
+    <div id="footer-graph-page" class="footer-clean">
+        <footer>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <!-- Start: Services -->
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3 style="font-size: 12pt;"><i class="icon ion-monitor"></i>&nbsp;Monitoring &amp; Tracking</h3>
+                        <ul>
+                            <li><a href="#">VDBA Alert Handling</a></li>
+                            <li><a href="#">Confluence</a></li>
+                            <li><a href="#">Replicon</a></li>
+                        </ul>
+                    </div>
+                    <!-- End: Services -->
+                    <!-- Start: Careers -->
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3 style="font-size: 12pt;"><i class="fas fa-tools"></i>&nbsp;Tools</h3>
+                        <ul>
+                            <li><a href="#">Send Test</a></li>
+                            <li><a href="#">Pluralsight</a></li>
+                            <li><a href="#"></a></li>
+                        </ul><a href="#" style="color: rgb(117,117,118);font-size: 11pt;">Timer</a></div>
+                    <!-- End: Careers -->
+                    <!-- Start: Careers -->
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3 style="font-size: 12pt;"><i class="fa fa-user"></i>&nbsp; Admin</h3>
+                        <ul>
+                            <li><a href="#">Internal Openings</a></li>
+                            <li><a href="#">Pay Stub</a></li>
+                            <li><a href="#">Benefits</a></li>
+                        </ul>
+                    </div>
+                    <!-- End: Careers -->
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- End: Footer Clean -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
+    <script src="/assets/js/bs-init.js?h=08ba999e06fc97f895c72848bddb91c1"></script>
+    <script src="/assets/js/Advanced-NavBar---Multi-dropdown.js?h=82aa1639b036873ff51a9544f9f9fe6e"></script>
+    <script src="/assets/js/Table-With-Search.js?h=aeb9a0ac8b6cc9ec2e3b9cc3add2f239"></script>
+</body>
+
+</html>
