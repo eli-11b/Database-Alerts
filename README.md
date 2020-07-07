@@ -22,7 +22,7 @@
 
 ### Export database
 
-<img src="/images/exporting">
+<img src="/images/exporting.png">
 
 ### Graph Creation
 
