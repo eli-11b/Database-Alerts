@@ -26,4 +26,11 @@
 
 ### Graph Creation
 
-## More
+### More
+
+#### Notes
+ <ul>
+ 	<li>Theme: Minty</li>
+ 	<li>Color hex values:</li>
+ 	<li>created with: Flask, Python, Bootstrap4, HTML , CSS, SQLITE3 </li>
+ </ul>
